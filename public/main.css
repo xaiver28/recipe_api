@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
     margin: 0;
-    background-image: url('');
+    /* background-color: #de4547; */
 }
 ul {
   list-style-type: none;
@@ -79,8 +79,49 @@ text-align: center;
 } */
 
 
-.icon{
+/* .icon{
   height: 300px;
   width: 300px;
   padding left:800px;
+} */
+.dj{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:56%;
+
+}
+
+
+
+
+
+
+/* FROM HERE DOWN WWE WILL BE WORKIN ON OUR COOKIES PAGE. */
+
+#cookie_bg{
+  height:622px;
+  width:70%;
+  padding-left:180px;
+}
+.cookies_layout{
+display:grid;
+grid-template: auto / repeat(2,49.5%);
+
+}
+/* "FROM HERE AND BELOW WE WILL BE WORKING ON THE MUFFIN PAGE" */
+
+
+
+
+.muffin_layout{
+display:grid;
+grid-template: auto / repeat(2,49.5%);
+
+}
+
+.cake_layout{
+  display:grid;
+  grid-template: auto / repeat(2,49.5%);
+
 }

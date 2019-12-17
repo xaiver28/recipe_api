@@ -5,17 +5,37 @@
     <title></title>
     <link rel="stylesheet" href="main.css">
   </head>
-  <body>
+  <body background="https://wallpapercave.com/wp/ADNUWPo.jpg">
 
     <ul>
   <li><a class="active" href="/index">Home</a></li>
   <li><a href="/cookies">Cookies</a></li>
   <li><a href="/cakes">Cakes</a></li>
   <li><a href="/muffin">Muffins</a></li>
-  <li><a href="Storest">Stores Near You</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <li><a href="/stores">Stores Near You</a></li>
+
   <p class="name" >BY: Xaiver Thyme</p>
 </ul>
     <h1>cakes</h1>
+<div class="cake_layout">
+  <% @cakes.each do |cake| %>
+
+    <img src="<%= cake.image %>" style= "width:80%;border-radius:40%;border:8px solid maroon;padding-left:30px;">
+<p style= "font-family:Impact, Charcoal, sans-serif; font-size: 2.0em;color:white;padding-top:160px;"><%= cake.desc %></p>
+
+  <%= cake.name %>
+
+  <% end %>
+
+
+
+
+
+
+
+  </div>
+
+
+
   </body>
 </html>

@@ -1,10 +1,42 @@
 GEM
+  remote: https://rubygems.org/
   specs:
+    addressable (2.3.8)
+    google-maps (2.2.0)
+      hashie (~> 2.0.5)
+      httpclient (~> 2.7.1)
+      json (>= 1.7.5)
+      ruby-hmac (~> 0.4.0)
+    hashie (2.0.5)
+    httpclient (2.7.2)
+    json (1.8.6)
+    mime-types (1.25.1)
+    mustermann (1.0.3)
+    rack (2.0.7)
+    rack-protection (2.0.7)
+      rack
+    rest-client (1.6.14)
+      mime-types (~> 1.16)
+    ruby-hmac (0.4.0)
+    sinatra (2.0.7)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.7)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+    unirest (1.1.2)
+      addressable (~> 2.3.5)
+      json (~> 1.8.1)
+      rest-client (~> 1.6.7)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  google-maps (~> 2.2)!
+  json (~> 1.8.1)!
+  sinatra!
+  unirest!
 
 BUNDLED WITH
    2.0.2
